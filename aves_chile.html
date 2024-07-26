@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aves de Chile</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+    .card-container{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-container .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      width: 300px;
+      transition: transform 0.2s ease;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .card:hover {
+      transform: translateY(-5px);
+  }
+  .card img {
+      width: 100%;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+  }
+  .card-content {
+      padding: 20px;
+  }
+  .card-content h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #333;
+  }
+  .card-content p {
+      margin: 5px 0;
+      color: #666;
+  }
+  .card-content p span {
+      font-weight: bold;
+      color: #333;
+  }
+  .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+  }
+
+  @media (max-width: 768px) {
+      .card {
+          width: 100%;
+          margin: 10px 0;
+      }
+  }
+
+  @media (max-width: 480px) {
+      body {
+          margin: 10px;
+      }
+      .container {
+          padding: 0;
+      }
+  }
+    </style>
+</head>
+<body>
+    <h1>Aves de Chile</h1>
+    <div class="card-container">
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3099/17082018024245aguilucho_chico_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Aguilucho Chico</h3>
+        <p><span>Nombre Científico:</span> Buteo albigula</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3401/17082018024833aguiluchocomun_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Aguilucho Común</h3>
+        <p><span>Nombre Científico:</span> Buteo polyosoma</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3391/17082018024423aguiluchocolarojiza_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Aguilucho de Cola Rojiza</h3>
+        <p><span>Nombre Científico:</span> Buteo ventralis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3515/20082018100543albatros_de_ceja_negra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Albatros de ceja negra</h3>
+        <p><span>Nombre Científico:</span> Thalassarche melanophrys</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3553/21082018011740albatros_errrante_liam_quinn_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Albatros errante</h3>
+        <p><span>Nombre Científico:</span> Diomedea exulans</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3522/09082018114457bailarin_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Bailarín</h3>
+        <p><span>Nombre Científico:</span> Elanus leucurus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3269/05092018084136bailari-n_chico_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Bailarín chico común</h3>
+        <p><span>Nombre Científico:</span> Anthus correndera</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3142/12082018072529bandurria_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Bandurria</h3>
+        <p><span>Nombre Científico:</span> Theristicus melanopis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3322/20082018100949bandurrilla_comun_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Bandurrilla Común</h3>
+        <p><span>Nombre Científico:</span> Upucerthia dumetaria</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3478/05092018084208becacina_comu-n_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Becasina Común</h3>
+        <p><span>Nombre Científico:</span> Gallinago paraguaiae</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3360/13092018013525.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Becasina Pintada</h3>
+        <p><span>Nombre Científico:</span> Nycticryphes semicollaris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3645/23082018071447becasina_grande_claudia_silva_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Becasina grande</h3>
+        <p><span>Nombre Científico:</span> Gallinago stricklandii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3131/17082018025342blanquillo_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Blanquillo</h3>
+        <p><span>Nombre Científico:</span> Podiceps occipitalis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3507/25092018063241cachana_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cachaña</h3>
+        <p><span>Nombre Científico:</span> Enicognathus ferrugineus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3662/04082018113001cachudito_bp.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cachudito</h3>
+        <p><span>Nombre Científico:</span> Anairetes parulus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3441/20082018101508caiquen_hembra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Caiquén</h3>
+        <p><span>Nombre Científico:</span> Chloephaga picta</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3490/2908201806492522082018090051caiti_ximena_olivares_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Caití</h3>
+        <p><span>Nombre Científico:</span> Recurvirostra andina</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3244/17082018093403canastero_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Canastero común</h3>
+        <p><span>Nombre Científico:</span> Asthenes humicola</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3184/19082018011819canquen_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Canquén</h3>
+        <p><span>Nombre Científico:</span> Chloephaga poliocephala</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3573/23082018071137canquen_colorado_roderich_barria_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Canquén Colorado</h3>
+        <p><span>Nombre Científico:</span> Chloephaga rubidiceps</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3640/24082018043244carancas_roderich_barria_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Caranca</h3>
+        <p><span>Nombre Científico:</span> Chloephaga hybrida</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3149/14092018093435.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Carancho Cordillerano</h3>
+        <p><span>Nombre Científico:</span> Phalcoboenus megalopterus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3501/23082018014912carpinterito_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Carpinterito</h3>
+        <p><span>Nombre Científico:</span> Picoides lignarius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3385/23082018011857carpintero_grande_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Carpintero Negro</h3>
+        <p><span>Nombre Científico:</span> Campephilus magellanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3556/22082018052943cernicalo_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cernícalo</h3>
+        <p><span>Nombre Científico:</span> Falco sparverius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3549/14082018073313chercaan_bp.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chercán</h3>
+        <p><span>Nombre Científico:</span> Troglodytes musculus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3691/19082018012649chercan_de_lasvegas_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chercán de las Vegas</h3>
+        <p><span>Nombre Científico:</span> Cistothorus platensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3417/13092018013010.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chincol</h3>
+        <p><span>Nombre Científico:</span> Zonotrichia capensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3248/23082018041939chiricoca_barbara_palma_villalobos_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chiricoca</h3>
+        <p><span>Nombre Científico:</span> Ochetorhynchus melanurus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3171/17082018103004chirigue_alejandro_labranque_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chirigüe Común</h3>
+        <p><span>Nombre Científico:</span> Sicalis luteola</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3355/31082018111212chirigue_dorado_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chirigüe Dorado</h3>
+        <p><span>Nombre Científico:</span> Sicalis auriventris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3431/13082018073104chorlito_cordillerano_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlito Cordillerano</h3>
+        <p><span>Nombre Científico:</span> Phegornis mitchellii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3456/17082018025610chorlo_chileno_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo Chileno</h3>
+        <p><span>Nombre Científico:</span> Charadrius modestus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3326/20082018102923chorlo_de_campo_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo de Campo</h3>
+        <p><span>Nombre Científico:</span> Oreopholus ruficollis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3337/17082018051714chorlo_de_collar_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo de Collar</h3>
+        <p><span>Nombre Científico:</span> Charadrius collaris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3198/17082018051624chorlo_de_doble_collar_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo de Doble Collar</h3>
+        <p><span>Nombre Científico:</span> Charadrius falklandicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3175/21082018044110chorlo_de_magallanes_juan_pablo_rider_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo de Magallanes</h3>
+        <p><span>Nombre Científico:</span> Pluvianellus socialis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3467/20082018102307chorlo_artico_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chorlo Ártico</h3>
+        <p><span>Nombre Científico:</span> Pluvialis squatarola</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3252/13082018074316chucao_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chucao</h3>
+        <p><span>Nombre Científico:</span> Scelorchilus rubecula</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3688/13082018072628chuncho_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Chuncho</h3>
+        <p><span>Nombre Científico:</span> Glaucidium nana</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3389/21082018050542churrete_acanelado_hernan_linetzky_mc-manus_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrete Acanelado</h3>
+        <p><span>Nombre Científico:</span> Cinclodes fuscus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3447/23082018053546churrete_costero_cristian_vergara_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrete Costero</h3>
+        <p><span>Nombre Científico:</span> Cinclodes nigrofumosus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3648/05092018090437churrete_comun_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrete común</h3>
+        <p><span>Nombre Científico:</span> Cinclodes patagonicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3505/21082018055319churrete_de_alas_blancas_bruno_conjeaud_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrete de alas blancas</h3>
+        <p><span>Nombre Científico:</span> Cinclodes atacamensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3193/01092018082150churrin_de_la_mocha_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrín de la Mocha</h3>
+        <p><span>Nombre Científico:</span> Eugralla paradoxa</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3259/01102018093758churrin_barbara_palma_villalobos_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Churrín del sur</h3>
+        <p><span>Nombre Científico:</span> Scytalopus magellanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3105/17082018103640cisne_coscoroba_alejandro_labranque_3_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cisne Coscoroba</h3>
+        <p><span>Nombre Científico:</span> Coscoroba coscoroba</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3167/15082018075840cisne_de_cuello_negro_cristian_labranque_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cisne de cuello negro</h3>
+        <p><span>Nombre Científico:</span> Cygnus melancoryphus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3533/19082018013328codorniz_hembra_y_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Codorniz</h3>
+        <p><span>Nombre Científico:</span> Callipela californica</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3579/13082018075128colegial_barbara_palma_villalobosjpg_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Colegial</h3>
+        <p><span>Nombre Científico:</span> Lessonia rufa</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3462/17082018051920colilarga_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Colilarga</h3>
+        <p><span>Nombre Científico:</span> Sylviorthorhynchus desmurii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3518/05092018084910comesebo_grande_andres_vejar_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Comesebo Grande</h3>
+        <p><span>Nombre Científico:</span> Pygarrhichas albogularis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3424/15082018080014cometocino_de_gay_andre_vielma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cometocino de Gay</h3>
+        <p><span>Nombre Científico:</span> Phrygilus gayi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3526/13082018075511cometocino_del_norte_camilo_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cometocino del Norte</h3>
+        <p><span>Nombre Científico:</span> Phrygilus atriceps</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3279/13082018075347cometocino_patagonico_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cometocino patagónico</h3>
+        <p><span>Nombre Científico:</span> Phrygilus patagonicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3255/13082018075614concon_barbara_palma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Concón</h3>
+        <p><span>Nombre Científico:</span> Strix rufipes</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3214/13082018075740cormoran_imperial_paula_de_marco_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cormorán Imperial</h3>
+        <p><span>Nombre Científico:</span> Phalacrocorax atriceps</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3594/13082018080235lile_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cormorán Lile</h3>
+        <p><span>Nombre Científico:</span> Phalacrocorax gaimardi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3481/18082018102755yeco_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cormorán Yeco</h3>
+        <p><span>Nombre Científico:</span> Phalacrocorax brasilianus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3217/20082018041944cormoran_de_las_rocas_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cormorán de las rocas</h3>
+        <p><span>Nombre Científico:</span> Phalacrocorax magellanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3546/31082018112715cotorra_argentina_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cotorra Argentina</h3>
+        <p><span>Nombre Científico:</span> Myiopsitta monachus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3465/17082018052311cuervo_del_pantano_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cuervo de Pantano</h3>
+        <p><span>Nombre Científico:</span> Plegadis chihi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3225/20082018041211condor_hembra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Cóndor</h3>
+        <p><span>Nombre Científico:</span> Vultur gryphus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3437/15082018080143diuca_andre_vielma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Diuca</h3>
+        <p><span>Nombre Científico:</span> Diuca diuca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3530/13082018080441diucon_barbara_palma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Diucón</h3>
+        <p><span>Nombre Científico:</span> Xolmis pyrope</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3394/20082018042506dormilona_fraile_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Dormilona Fraile</h3>
+        <p><span>Nombre Científico:</span> Muscisaxicola flavinucha</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3459/22082018122710dormilona_tontita_juvenil_luis_piovani_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Dormilona Tontita</h3>
+        <p><span>Nombre Científico:</span> Muscisaxicola maclovianus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3628/17082018095838dormilonacejablanca_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Dormilona de Ceja Blanca</h3>
+        <p><span>Nombre Científico:</span> Muscisaxicola albilora</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3312/01092018082657dormilona_de_nuca_rojiza_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Dormilona de nuca rojiza</h3>
+        <p><span>Nombre Científico:</span> Muscisaxicola rufivertex</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3134/19082018082146fardela_negra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Fardela Negra</h3>
+        <p><span>Nombre Científico:</span> Ardenna grisea</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3332/17082018100508flamencochileno_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Flamenco Chileno</h3>
+        <p><span>Nombre Científico:</span> Phoenicopterus chilensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3291/13082018080642fio_fio_alejandra_lopez_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Fío-Fío</h3>
+        <p><span>Nombre Científico:</span> Elaenia albiceps</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3178/15082018080245gallina_ciega_andre_vielma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gallina Ciega</h3>
+        <p><span>Nombre Científico:</span> Caprimulgus longirostris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3335/17082018052831garza_bueyera_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Garza Bueyera</h3>
+        <p><span>Nombre Científico:</span> Bubuculcus ibis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3559/19082018082620garza_chica_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Garza Chica</h3>
+        <p><span>Nombre Científico:</span> Egretta thula</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3601/13082018080840garza_cuca_barbara_palma_villalobos_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Garza Cuca</h3>
+        <p><span>Nombre Científico:</span> Ardea cocoi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3128/28082018064904garza_grande_gerardo_carinao_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Garza grande</h3>
+        <p><span>Nombre Científico:</span> Ardea alba</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3109/13082018073638gaviota_austral_paula_de_marco_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota  Austral</h3>
+        <p><span>Nombre Científico:</span> Leucophaeus scoresbii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3576/18082018123916gaviota_andina_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota Andina</h3>
+        <p><span>Nombre Científico:</span> Larus serranus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3685/04082018123730gaviota_cahuil_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota Cáhuil</h3>
+        <p><span>Nombre Científico:</span> Chroicocephalus maculipennis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3118/04082018091522gaviota_dominicana_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota Dominicana</h3>
+        <p><span>Nombre Científico:</span> Larus dominicanus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3679/04082018092450gaviota_garuma_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota Garuma</h3>
+        <p><span>Nombre Científico:</span> Larus modestus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3653/04082018120235_gaviota_peruana_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota Peruana</h3>
+        <p><span>Nombre Científico:</span> Larus belcheri</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3298/04082018124450gaviota_de_franklin_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviota de Franklin</h3>
+        <p><span>Nombre Científico:</span> Larus pipixcan</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3632/2908201807102021082018045357gaviotin_boreal_gary_vause_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Boreal</h3>
+        <p><span>Nombre Científico:</span> Sterna hirundo</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3223/07092018035526.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Chico</h3>
+        <p><span>Nombre Científico:</span> Sternula lorata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3571/18082018124343gaviotin_elegante_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Elegante</h3>
+        <p><span>Nombre Científico:</span> Sterna elegans</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3239/12092018083102.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Monja</h3>
+        <p><span>Nombre Científico:</span> Larosterna inca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3596/19082018083502gaviotin_piquerito_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Piquerito</h3>
+        <p><span>Nombre Científico:</span> Sterna trudeaui</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3191/18082018125159gaviotin_sudamericano_pedro_valencia_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gaviotín Sudamericano</h3>
+        <p><span>Nombre Científico:</span> Sterna hirundinacea</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3451/18082018010729golondrina_bermeja_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Golondrina Bermeja</h3>
+        <p><span>Nombre Científico:</span> Hirundo rustica</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3231/13082018090508golondrina_alejandra_lopez_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Golondrina Chilena</h3>
+        <p><span>Nombre Científico:</span> Tachycineta meyeni</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3666/01092018083836golondrina_de_dorso_negro_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Golondrina de Dorso Negro</h3>
+        <p><span>Nombre Científico:</span> Pygochelidon cyanoleuca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3670/01092018084323golondrina_de_mar_de_collar_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Golondrina de Mar</h3>
+        <p><span>Nombre Científico:</span> Oceanites oceanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3288/19082018084032gorrion_macho_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Gorrión</h3>
+        <p><span>Nombre Científico:</span> Passer domesticus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3683/24082018044401guanay_jorge_abarca_web_2.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Guanay</h3>
+        <p><span>Nombre Científico:</span> Phalacrocorax bougainvillii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3372/18082018011817halcon_perdiguero_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Halcón Perdiguero</h3>
+        <p><span>Nombre Científico:</span> Falco femoralis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3582/18082018015505halcon_peregrino_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Halcón Peregrino</h3>
+        <p><span>Nombre Científico:</span> Falco peregrinus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3413/13082018081939huairavillo_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Huairavillo</h3>
+        <p><span>Nombre Científico:</span> Ixobrychus involucris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3275/13082018082023huairavo_camilo_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Huairavo común</h3>
+        <p><span>Nombre Científico:</span> Nycticorax nycticorax</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3420/28082018060139huala_mono_andes_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Huala</h3>
+        <p><span>Nombre Científico:</span> Podiceps major</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3163/07092018035809.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Hued-hued del Sur</h3>
+        <p><span>Nombre Científico:</span> Pteroptochos tarnii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3369/19082018084655jilguero_comun_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Jilguero</h3>
+        <p><span>Nombre Científico:</span> Carduelis barbata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3564/20082018043214jilguero_cordillerano_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Jilguero cordillerano</h3>
+        <p><span>Nombre Científico:</span> Carduelis uropygialis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3411/18082018020140jote_cabeza_colorada_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Jote de Cabeza Colorada</h3>
+        <p><span>Nombre Científico:</span> Cathartes aura</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3499/18082018020928jote_de_cabeza_negra_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Jote de Cabeza Negra</h3>
+        <p><span>Nombre Científico:</span> Coragyps atratus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3241/2908201806510226082018023506lechuza_andres_vejar_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Lechuza</h3>
+        <p><span>Nombre Científico:</span> Tyto alba</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3352/06082018100456loica.200x0.png" alt="Imagen de">
+    <div class="card-content">
+        <h3>Loica</h3>
+        <p><span>Nombre Científico:</span> Sturnella loyca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3377/19082018012957choroy_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Loro Choroy</h3>
+        <p><span>Nombre Científico:</span> Enicognathus leptorhynchus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3306/13082018100624tricahue_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Loro Tricahue</h3>
+        <p><span>Nombre Científico:</span> Cyanoliseus patagonus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3672/23082018123925martin_pescador_richard_wolf_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Martín Pescador</h3>
+        <p><span>Nombre Científico:</span> Ceryle torquata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3429/20082018063420mero_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Mero</h3>
+        <p><span>Nombre Científico:</span> Agriornis lividus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3655/01092018090613mero_gaucho_juvenil_sergio_moya_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Mero Gaucho</h3>
+        <p><span>Nombre Científico:</span> Agriornis montanus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3155/20082018063719minero_comun_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Minero Común</h3>
+        <p><span>Nombre Científico:</span> Geositta cunicularia</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3329/13082018082259mirlo_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Mirlo</h3>
+        <p><span>Nombre Científico:</span> Molothrus bonariensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3399/18082018021324nuco_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Nuco</h3>
+        <p><span>Nombre Científico:</span> Asio flammeus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3263/20082018064422paloma_de_alas_blancas_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Paloma de Alas Blancas</h3>
+        <p><span>Nombre Científico:</span> Zenaida meloda</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3435/05092018085443paloma_domestica_gordon_magee_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Paloma doméstica</h3>
+        <p><span>Nombre Científico:</span> Columba livia</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3700/26082018033455parina_chica_hector_bottai_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Parina Chica</h3>
+        <p><span>Nombre Científico:</span> Phoenicoparrus jamesi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3609/2908201806343226082018032911parina_grande_ricardo_bitran_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Parina Grande</h3>
+        <p><span>Nombre Científico:</span> Phoenicoparrus andinus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3196/23082018070709pato_anteojillo2_roderich_barria_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Anteojillo</h3>
+        <p><span>Nombre Científico:</span> Speculanas specularis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3626/20082018065818pato_capuchino_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Capuchino</h3>
+        <p><span>Nombre Científico:</span> Anas versicolor</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3698/19082018091938pato_colorado_macho_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Colorado</h3>
+        <p><span>Nombre Científico:</span> Anas cyanoptera</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3510/26082018041035pato_cortacorrientes_hembra_niccolo_cantarutti_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Cortacorrientes</h3>
+        <p><span>Nombre Científico:</span> Merganetta armata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3212/31082018115608pato_cuchara_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Cuchara</h3>
+        <p><span>Nombre Científico:</span> Anas platalea</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3304/20082018070503pato_gargantillo_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Gargantillo</h3>
+        <p><span>Nombre Científico:</span> Anas bahamensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3250/18082018022735pato_jergon_chico_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Jergón Chico</h3>
+        <p><span>Nombre Científico:</span> Anas flavirostris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3561/18082018071636pato_jergon_grande_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Jergón Grande</h3>
+        <p><span>Nombre Científico:</span> Anas georgica</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3102/18082018072023pato_juarjual_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Juarjual</h3>
+        <p><span>Nombre Científico:</span> Lophonetta specularioides</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3542/18082018072436pato_negro_macho_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Negro</h3>
+        <p><span>Nombre Científico:</span> Netta peposaca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3445/18082018072846pato_rana_pico_ancho_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Rana de Pico Ancho</h3>
+        <p><span>Nombre Científico:</span> Oxyura ferruginea (jamaicensis)</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3621/23082018065905pato_rana__de__pico__delgado__macho_rodrigo_reyes.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Rana de Pico Delgado</h3>
+        <p><span>Nombre Científico:</span> Oxyura vittata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3408/20082018071600pato_real_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Real</h3>
+        <p><span>Nombre Científico:</span> Anas sibilatrix</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3159/20082018083653pato_rinconero_hembra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pato Rinconero</h3>
+        <p><span>Nombre Científico:</span> Heteronetta atricapilla</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3630/18082018073325pelicano_comun_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pelícano Común</h3>
+        <p><span>Nombre Científico:</span> Pelecanus thagus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3650/13082018082633pequen_camilo_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pequén</h3>
+        <p><span>Nombre Científico:</span> Athene cunicularia</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3273/31082018120451perdicita_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perdicita</h3>
+        <p><span>Nombre Científico:</span> Thinocorus rumicivorus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3295/18082018073655perdicita_cojon__carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perdicita Cojón</h3>
+        <p><span>Nombre Científico:</span> Thinocorus orbignyianus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3382/18082018074020perdicita_cordillerana_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perdicita cordillerana</h3>
+        <p><span>Nombre Científico:</span> Attagis gayi</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3111/18082018074355perdiz_chilena_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perdiz chilena</h3>
+        <p><span>Nombre Científico:</span> Nothoprocta perdicaria</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3540/27092018092920perdiz_copetona_2_jorge_chamia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perdiz copetona / Martineta</h3>
+        <p><span>Nombre Científico:</span> Eudromia elegans</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3668/13082018082750perico_cordillerano_camilo_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perico Cordillerano</h3>
+        <p><span>Nombre Científico:</span> Psilopsiagon aurifrons</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3121/18082018075423perrito_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Perrito</h3>
+        <p><span>Nombre Científico:</span> Himantopus melanurus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3350/2908201807025523082018065517petrel_gigante_antartico_rodrigo_reyes_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Petrel Gigante Antártico</h3>
+        <p><span>Nombre Científico:</span> Macronectes giganteus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3152/18082018075938peuco_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Peuco</h3>
+        <p><span>Nombre Científico:</span> Parabuteo unicinctus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3363/18082018080538peuquito_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Peuquito</h3>
+        <p><span>Nombre Científico:</span> Accipiter chilensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3283/14082018122316picaflor_chico_barbara_palma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor Chico</h3>
+        <p><span>Nombre Científico:</span> Sephanoides sephanoides</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3657/14082018123034picaflor_cordillerano_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor Cordillerano</h3>
+        <p><span>Nombre Científico:</span> Oreotrochilus leucopleurus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3266/15082018091803picaflor_gigante_alain_macias_2_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor Gigante</h3>
+        <p><span>Nombre Científico:</span> Patagonas gigas</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3695/20082018085521picaflor_de_arica_macho_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor de Arica</h3>
+        <p><span>Nombre Científico:</span> Eulidia yarrellii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3139/13082018083521picaflor_juan_fernandez_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor de Juan Fernández</h3>
+        <p><span>Nombre Científico:</span> Sephanoides fernandensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3473/18082018080945picaflor_del_norte_hembra_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picaflor del Norte</h3>
+        <p><span>Nombre Científico:</span> Rhodopis vesper</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3188/18082018081428picurio_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Picurio</h3>
+        <p><span>Nombre Científico:</span> Podilymbus podiceps</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3220/20082018090013pidencito_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pidencito</h3>
+        <p><span>Nombre Científico:</span> Laterallus jamaicensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3203/18082018081758piden_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pidén</h3>
+        <p><span>Nombre Científico:</span> Pardirallus sanguinolentus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3124/06082018101359pilpilen_leslie_brackenridge_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pilpilén</h3>
+        <p><span>Nombre Científico:</span> Haematopus palliatus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3485/23082018064725pilpilen_austral_rodrigo_reyes_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pilpilén Austral</h3>
+        <p><span>Nombre Científico:</span> Haematopus leucopodus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3427/06082018101025pilpilen_negro_michel_baez_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pilpilén Negro</h3>
+        <p><span>Nombre Científico:</span> Haematopus ater</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3320/13082018083903pimpollo_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pimpollo</h3>
+        <p><span>Nombre Científico:</span> Rollandia rolland</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3286/07092018033322.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino Emperador</h3>
+        <p><span>Nombre Científico:</span> Aptenodytes forsteri</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3182/2908201807041621082018042703pinguino_macaroni_liam_quinn_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino Macaroni</h3>
+        <p><span>Nombre Científico:</span> Eudyptes chrysolophus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3229/23082018064956pinguino_rey_roderich_barria_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino Rey</h3>
+        <p><span>Nombre Científico:</span> Aptenodytes patagonicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3634/13082018092252pinguino_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino de Humboldt</h3>
+        <p><span>Nombre Científico:</span> Spheniscus humboldti</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3702/28082018011241pinguino_de_magallanes_paula_de_marco_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino de Magallanes</h3>
+        <p><span>Nombre Científico:</span> Spheniscus magellanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3497/01102018093553pinguuino_de_penacho_amarillo_russell_scott_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pingüino de Penacho Amarillo</h3>
+        <p><span>Nombre Científico:</span> Eudyptes chrysocome</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3415/18082018082127piquero_carlos_monteverde_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Piquero</h3>
+        <p><span>Nombre Científico:</span> Sula variegata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3544/27092018114406pitotoy_chico_leslie_brackenridge__089tfan04_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pitotoy Chico</h3>
+        <p><span>Nombre Científico:</span> Tringa flavipes</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3358/27092018115149pitotoy_grande__leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pitotoy grande</h3>
+        <p><span>Nombre Científico:</span> Tringa melanoleuca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3346/2908201806533523082018020319pitio_pablo_gutierrez_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pitío</h3>
+        <p><span>Nombre Científico:</span> Colaptes pitius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3675/18082018082601piuquen_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Piuquén</h3>
+        <p><span>Nombre Científico:</span> Chloephaga melanoptera</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3637/19082018094050platero_hembra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Platero</h3>
+        <p><span>Nombre Científico:</span> Phrygilus alaudinus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3310/27092018121222playero_blanco_leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Playero blanco</h3>
+        <p><span>Nombre Científico:</span> Calidris alba</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3659/13082018084920playero_de_baird_leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Playero de Baird</h3>
+        <p><span>Nombre Científico:</span> Calidris bairdii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3380/13082018085312playero_de_las_rompientes_leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Playero de las Rompientes</h3>
+        <p><span>Nombre Científico:</span> Aphriza virgata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3340/20082018090557playero_grande_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Playero grande</h3>
+        <p><span>Nombre Científico:</span> Tringa semipalmata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3449/13082018085555playero_vuelvepiedras_leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Playero vuelvepiedras</h3>
+        <p><span>Nombre Científico:</span> Arenaria interpres</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3538/01092018085221pollito_mar_rojizo_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pollito de Mar Rojizo</h3>
+        <p><span>Nombre Científico:</span> Phalaropus fulicarius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3367/18082018083719pollito_de_mar_tricolor_pedro_valencia_b.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pollito de Mar Tricolor</h3>
+        <p><span>Nombre Científico:</span> Phalaropus tricolor</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3161/18082018022058pajaro_plomo_macho_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Pájaro Plomo</h3>
+        <p><span>Nombre Científico:</span> Phrygilus unicolor</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3623/13082018085643queltehue_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Queltehue / Treile</h3>
+        <p><span>Nombre Científico:</span> Vanellus chilensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3643/23082018064205quetru_no_volador_macho_rodrigo_reyes_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Quetru No Volador</h3>
+        <p><span>Nombre Científico:</span> Tachyeres pteneres</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3317/19082018094719rara_hembra_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Rara</h3>
+        <p><span>Nombre Científico:</span> Phytotoma rara</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3396/23082018060705rayadito_mauricio_gonzalez_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Rayadito</h3>
+        <p><span>Nombre Científico:</span> Aphrastura spinicauda</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3487/18082018085124rayador_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Rayador</h3>
+        <p><span>Nombre Científico:</span> Rynchops niger</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3365/13082018085841run_run_camilo_maldonado_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Run-run</h3>
+        <p><span>Nombre Científico:</span> Hymenops perspicillata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3315/13082018090121saca_tu_real_camilo_maldonado_marin_jpg_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Saca-tu-real</h3>
+        <p><span>Nombre Científico:</span> Pyrocephalus rubinus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3234/20082018091640salteador_chileno_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Salteador Chileno</h3>
+        <p><span>Nombre Científico:</span> Stercorarius chilensis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3618/13082018092703sietecolores_camilo_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Sietecolores</h3>
+        <p><span>Nombre Científico:</span> Tachuris rubrigastra</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3569/21082018094156tagua_chica_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tagua Chica</h3>
+        <p><span>Nombre Científico:</span> Fulica leucoptera</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3454/19082018095200tagua_comun_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tagua Común</h3>
+        <p><span>Nombre Científico:</span> Fulica armillata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3615/22082018083952tagua_frente_roja_pablo_gutierrez_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tagua de Frente Roja</h3>
+        <p><span>Nombre Científico:</span> Fulica rufifrons</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3607/18082018085636taguita_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Taguita</h3>
+        <p><span>Nombre Científico:</span> Porphyriops melanops</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3136/13082018092804tapaculo_andre_vielma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tapaculo</h3>
+        <p><span>Nombre Científico:</span> Scelorchilus albicollis</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3604/15082018080535tenca_andre_vielma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tenca</h3>
+        <p><span>Nombre Científico:</span> Mimus tenca</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3301/13082018095042tijeral_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tijeral Común</h3>
+        <p><span>Nombre Científico:</span> Leptasthenura aegithaloides</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3494/05092018090152tiuque_sebastian_saiter_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tiuque</h3>
+        <p><span>Nombre Científico:</span> Milvago chimango</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3236/18082018090512torcaza_tomas_rivas_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Torcaza</h3>
+        <p><span>Nombre Científico:</span> Patagioenas araucana</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3512/01092018085900tordo_pio_marshall_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tordo</h3>
+        <p><span>Nombre Científico:</span> Curaeus curaeus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3146/18082018100656tortolita_cordillerana_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tortolita Cordillerana</h3>
+        <p><span>Nombre Científico:</span> Metriopelia melanoptera</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3536/21082018094922tortolita_cuyana_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tortolita cuyana</h3>
+        <p><span>Nombre Científico:</span> Columbina picui</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3470/23082018055733trabajador_antonio_maureira_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Trabajador</h3>
+        <p><span>Nombre Científico:</span> Phleocryptes melanops</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3475/18082018101231traro_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Traro o Carancho Común</h3>
+        <p><span>Nombre Científico:</span> Caracara plancus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3206/18082018101605trile_hembra_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Trile</h3>
+        <p><span>Nombre Científico:</span> Agelaius thilius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3115/13082018100708tucuquere_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tucúquere</h3>
+        <p><span>Nombre Científico:</span> Bubo magellanicus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3566/13082018100923turca_camilo_maldonado_marin_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Turca</h3>
+        <p><span>Nombre Científico:</span> Pteroptochos megapodius</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3612/18082018100202tortola_comun_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Tórtola Común</h3>
+        <p><span>Nombre Científico:</span> Zenaida auriculata</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3591/18082018101953vari_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Vari</h3>
+        <p><span>Nombre Científico:</span> Cinereous harrier</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3598/13082018101301viudita_barbara_palma_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Viudita</h3>
+        <p><span>Nombre Científico:</span> Colorhamphus parvirostris</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3344/18082018102348yal_hembra_pedro_valencia_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Yal Común</h3>
+        <p><span>Nombre Científico:</span> Phrygilus fruticeti</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3374/2908201807164521082018013452yal_cordillerano_sebastian_saiter_web_.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Yal Cordillerano</h3>
+        <p><span>Nombre Científico:</span> Melanodera xanthogramma</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3209/13082018101415zarapito_alain_macias_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Zarapito común</h3>
+        <p><span>Nombre Científico:</span> Numenius phaeopus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3126/13082018101547zarapito_pico_recto_leslie_brackenridge_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Zarapito de pico recto</h3>
+        <p><span>Nombre Científico:</span> Limosa haemastica</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3404/15082018080732zorzal_cristian_labranque_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Zorzal</h3>
+        <p><span>Nombre Científico:</span> Turdus falcklandii</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3584/20082018100118aguila_pescadora_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Águila Pescadora</h3>
+        <p><span>Nombre Científico:</span> Pandion haliaetus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3587/20082018095811aguila_mora_marcos_baumann_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Águila mora</h3>
+        <p><span>Nombre Científico:</span> Geranoaetus melanoleucus</p>
+    </div>
+  </div>
+<div class="card">
+    <img src="https://aves.ninjas.cl/api/site/assets/files/3200/0409201806283701092018091428n-andu_paula_de_marco_web.200x0.jpg" alt="Imagen de">
+    <div class="card-content">
+        <h3>Ñandú - Suri</h3>
+        <p><span>Nombre Científico:</span> Rhea pennata</p>
+    </div>
+  </div>
+        </div>
+        </body>
+</html>
